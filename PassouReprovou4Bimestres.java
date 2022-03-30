@@ -5,7 +5,7 @@ public class PassouReprovou4Bimestres {
         int nota_3 = 7;
         int nota_4 = 7;
 
-        float media = (nota_1+nota_2+nota_3+nota_4)/4;
+        double media = (nota_1+nota_2+nota_3+nota_4)/4.0;
 
         if (media >= 7) {
             System.out.println("Passou Direto Nota :"+ media);
